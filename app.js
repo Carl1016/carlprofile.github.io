@@ -1,0 +1,22 @@
+$(function(){
+  $("li#Personal_data_link").click(function(){
+    $('div#Major').hide();
+    $('div#Workexp').hide();
+    $('div#Personal_data').show('slow','swing');
+    
+  })
+})
+$(function(){
+  $("li#Major_link").click(function(){
+    $('div#Personal_data').hide();
+    $('div#Workexp').hide();
+    $('div#Major').show('slow','swing');
+  })
+})
+$(function(){
+  $("li#Workexp_link").click(function(){
+    $('div#Personal_data').hide();
+    $('div#Major').hide();
+    $('div#Workexp').show('slow','swing');
+  })
+})
